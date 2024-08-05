@@ -3,21 +3,21 @@
 
 long fattoriale(int n)
 {
-	long result = 1;
-	while (n--)
-		result*=n;
+        long result = 1;
+        while (n--)
+                result*=n;
 
- 	return result;
+        return result;
 }
 
 
 int main()
 {
-	int n = 10;
+        int n = 10;
 
-	long val = fattoriale(n);
+        long val = fattoriale(n);
 
-	printf("Fattoriale di %d, %ld\n", n, val);
+        printf("Fattoriale di %d, %ld\n", n, val);
 
-	return 0;
+        return 0;
 }
