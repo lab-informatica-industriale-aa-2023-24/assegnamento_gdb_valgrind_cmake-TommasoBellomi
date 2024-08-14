@@ -14,9 +14,13 @@ int main()
 		s++;
 	}
 
-	for(int n = 0; n < 30; n++) {
+	for(int n = 0; n < 20; n++) { //corretto 30 con 20 per non superare la memoria allocata
 		*s = 'A';
 		s++;
 	}
+
+	free(p);
+
+	return 0;
 
 }
