@@ -13,19 +13,19 @@
 
 int main()
 {
-	int somma = 0;
-	int val;
-	int numeri = 0;
-	while (scanf("%d\n",&val) != EOF) {
-		somma += val;
-		numeri++;
-	}
+        int somma = 0;
+        int val;
+        int numeri = 0;
+        while (scanf("%d\n",&val) != EOF) {
+                somma += val;
+                numeri++;
+        }
 
-	double media;
-	if (numeri > 0) {
-		media = somma/numeri;
-		printf("La media è %f\n", media);
-	}
+        double media;
+        if (numeri > 0) {
+                media = somma/numeri;
+                printf("La media è %f\n", media);
+        }
 
-	return 0;
+        return 0;
 }
